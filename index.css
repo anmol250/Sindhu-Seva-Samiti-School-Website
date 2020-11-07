@@ -1,0 +1,62 @@
+body{
+    background-image: url("1.jpg");
+}
+
+.Links{
+   text-align: center;
+   margin-top: 3%;
+   font-style: oblique;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Links a{
+      padding: .7% 2.5%;
+        margin: 2% 2%;
+        text-decoration: none;
+        border-top: 4px solid white;
+        border-bottom: 3px solid white;
+        font-size: 25px;
+        color: blue
+}
+.container{
+    margin-top: 4%;
+}
+
+h1{
+    text-align: center;
+    
+     font-style: italic;
+     font-size: 45px;
+     overflow: hidden;
+     border-right: .15em solid orange;
+     white-space: nowrap;
+     margin: 0 auto;
+     letter-spacing: .12em;
+     animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+.text1{
+    font-size: 30px;
+    color:yellow;
+    text-decoration: underline;
+    
+}
+
+h2{
+    color:blue;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    margin-top: 4%;
+}
+
